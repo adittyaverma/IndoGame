@@ -9,8 +9,36 @@
   border-bottom-left-radius: 0px;
 }
 
+.avatar-wrapper{
+position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px -5px black;
+  transition: all .3s ease;
+  border: 3px solid;
+}
 
+.profile-pic {
+   height: 100%;
+width: 100%;
+transition: all .3s ease;
+}
 
+.upload-button {
+position: absolute;
+  bottom: 0;
+  font-size: 40px;
+  background: #1cbc9b;
+  padding: 9px;
+  height: 40px;
+  left: 0px;
+  cursor: pointer;
+  width: 200px !important;
+  display: none;
+}
 
 
 /* About Page */
