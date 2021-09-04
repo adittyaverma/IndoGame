@@ -39,7 +39,11 @@ position: absolute;
   width: 200px !important;
   display: none;
 }
+.thumb{
+    width: 42px;
+    height: 42px;
 
+}
 
 /* About Page */
 
